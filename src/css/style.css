@@ -1,0 +1,63 @@
+html * {
+    font-family: Arial !important;
+    color: white;
+    overflow: hidden;
+}
+
+body {
+    /*background-image: url('../img/bg.jpg');*/
+    background-color: #2a2a2a;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.downloadbtn {
+    background-color: #2598b5;
+    /*border-radius: 8px;*/
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.clearcachebtn {
+    background: none;
+    /* Remove the background */
+    border: none;
+    /* Remove the border */
+    color: inherit;
+    /* Use the text color of the parent element */
+    cursor: pointer;
+    /* Keep the pointer cursor */
+    text-decoration: underline;
+    /* Add underline */
+    padding: 0;
+    /* Remove padding to make it just text */
+    font-size: inherit;
+    /* Match the font size to surrounding text */
+}
+
+p {
+    color: #FF9900
+}
+
+.downloadbtn:hover {
+    opacity: 1;
+}
+
+.downloadbtn:disabled {
+    background-color: #9b9b9b4b;
+}
+
+.downloadbtn:disabled:hover {
+    background-color: #282828;
+}
+
+.swlogo {
+    width: 50%;
+}
